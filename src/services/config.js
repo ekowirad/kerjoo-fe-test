@@ -1,0 +1,1 @@
+export const base_url = "https://api.kerjoo.com/api/v1"

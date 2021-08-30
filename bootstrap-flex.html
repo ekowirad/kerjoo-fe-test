@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Flex</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex flex-md-row flex-sm-column flex-wrap ">
+            <div class=" d-flex flex-md-row p-2">
+                <button type="button" class="btn btn-success">Tambah</button>
+                <button type="button" class="btn btn-outline-primary">Import</button>
+                <button type="button" class="btn btn-outline-primary">Export</button>
+            </div>
+            <div class=" d-flex flex-md-row flex-wrap p-2">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" name="year">
+                        <option selected disabled value="">Pilih Tahun</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option></option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
